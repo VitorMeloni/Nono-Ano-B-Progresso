@@ -1,11 +1,11 @@
-let status_is_active = false
+let status_is_active = true
 const status_marker = document.getElementById("status_marker")
 const warning = document.querySelector(".container_warning")
 const container_rewards = document.querySelector(".container_mid")
 const item1 = document.getElementById("item1")
 const item2 = document.getElementById("item2")
-const item3 = document.getElementById("item3")
-const array = [item1, item2, item3]
+//const item3 = document.getElementById("item3")
+const array = [item1, item2]//item3
 
 if (status_is_active) {
     status_marker.className = "green_marker"
