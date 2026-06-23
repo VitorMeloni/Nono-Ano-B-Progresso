@@ -1,4 +1,4 @@
-let status_is_active = true
+let status_is_active = false
 const status_marker = document.getElementById("status_marker")
 const warning = document.querySelector(".container_warning")
 const container_rewards = document.querySelector(".container_mid")
